@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Battle GFX Tool</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="one_month_text">1 Week</string>
+    <string name="one_month_text_price">Total Price ₹00.00</string>
+    <string name="three_months_text">1 Month</string>
+    <string name="three_months_text_price">Total Price ₹00.00</string>
+    <string name="one_year_text">3 Months</string>
+    <string name="one_year_text_price">Total Price ₹00.00</string>
+    
+    <string name="add_prompt">Please click the 『 + 』 button on the right to add games.</string>
+    <string name="splash_sub">Made with ❤️ by OneCode Inc.</string>
+    <string name="agree">I agree &amp; accept</string>
+    <string name="Privacy"><u>Privacy Policy</u></string>
+    <string name="Terms"><u>Terms of use</u></string>
+    <string name="terms_conditions">You can only move forward if you agree\nto everything above</string>
+    <string name="applying_instruct">*Recommended to apply NORMAL SETTINGS first and then ADVANCED SETTINGS.</string>
+    <string name="subscription_manage">You can manage your subscription or cancel anytime in your Google account settings.</string>
+
+    <string name="pro_version_prompt"></string>
+    <string name="download_prompt">In order to provide you with the best experience, our app needs to download a required file on your device.\nThis will allow us to improve the app\'s performance and functionality.\n\nWould you like to grant us permission to download this file?</string>
+    <string name="update_prompt">In order to provide you with the best experience, our app needs to update to a newer version\nThis will allow us to improve the app\'s performance and functionality.\n\nWould you like to grant us permission to update?</string>
+    <string name="charging_prompt">We value our customers and appreciate their interest in our premium files. However, we also invest a lot of time, effort and research into creating high-quality and exclusive content that meets their needs.\n\n
+Therefore, we charge a reasonable fee for accessing our premium files, which helps us cover our costs and continue to provide excellent service.</string>
+    <string name="adblocker_prompt">We have detected that you are using an Adblocker on your device. Please disable your Adblocker and restart your app to continue using it.</string>
+</resources>

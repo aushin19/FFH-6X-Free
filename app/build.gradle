@@ -1,0 +1,77 @@
+plugins {
+    id 'com.android.application'
+    id 'com.google.firebase.crashlytics'
+}
+
+android {
+    namespace 'com.onecode.ffhx.gfx'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.onecode.ffhx.gfx"
+        minSdk 21
+        targetSdk 34
+        versionCode 5
+        versionName "1.2.2"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        buildConfigField("boolean", "isUserPaid", "false")
+        buildConfigField("String", "AD_UNIT", "\"https://ffh4xfree.blogspot.com/2024/01/admanager.html\"")
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    buildFeatures {
+        aidl true
+        viewBinding true
+        dataBinding true
+    }
+
+    android.buildFeatures.buildConfig true
+}
+
+dependencies {
+
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.11.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'androidx.lifecycle:lifecycle-process:2.7.0'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+
+    //UI
+    implementation 'com.facebook.shimmer:shimmer:0.5.0'
+
+    //Network
+    implementation "com.android.volley:volley:1.2.1"
+    implementation 'org.jsoup:jsoup:1.16.2'
+    implementation 'com.github.bumptech.glide:glide:4.16.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.16.0'
+
+    //Ads Dependencies
+    implementation 'com.google.android.gms:play-services-ads:22.6.0'
+
+    //Other Dependencies
+    implementation 'com.google.android.play:core:1.10.3'
+    implementation 'com.onesignal:OneSignal:5.0.4'
+
+    implementation platform('com.google.firebase:firebase-bom:32.5.0')
+    implementation 'com.google.firebase:firebase-crashlytics'
+    implementation 'com.google.firebase:firebase-analytics'
+
+    //IAPBilling
+    implementation "com.android.billingclient:billing:6.1.0"
+}
+
+apply plugin: 'com.google.gms.google-services'

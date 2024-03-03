@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="primary">#ffa21a</color>
+    <color name="primary_ripple">#e68900</color>
+
+    <color name="fore_accent">#ffa21a</color>
+    <color name="back_accent">#66410a</color>
+
+    <color name="font">#FFF</color>
+    <color name="main_font">#FFF</color>
+    <color name="sub_font">#C1BEBE</color>
+
+    <color name="background">#282828</color>
+
+    <color name="nav_unselected">#909090</color>
+    <color name="nav_selected">#ffa21a</color> //Primary
+
+    <color name="card_background">#303030</color>
+    <color name="rear_card_background">#E4E4E4</color>
+
+    <color name="progressbar_background">#ffa21a</color> //Primary
+    <color name="progressbar_progress">#b36a00</color> //60%
+
+    <color name="premium">#000</color>
+
+    <color name="shimmer">#606060</color>
+
+    <color name="draw_over_background">#505050</color>
+
+    <color name="gold">#FFD700</color>
+
+    <color name="green">#4CAF50</color>
+
+    <color name="inActiveSwitch">#FF9A9A9A</color>
+</resources>

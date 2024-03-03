@@ -1,0 +1,65 @@
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="Theme.FFHX" parent="Theme.MaterialComponents.Light.NoActionBar.Bridge">
+        <item name="android:colorPrimary">#FFF</item>
+        <item name="android:colorPrimaryDark">#FFF</item>
+
+        <item name="android:colorSecondary" tools:ignore="NewApi">#000</item>
+
+        <item name="android:statusBarColor">#00FFFFFF</item>
+
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="colorControlHighlight">@color/primary_ripple</item>
+    </style>
+
+    <style name="Custom_FileFeed_CardView" parent="Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">@color/card_background</item>
+        <item name="android:clickable">true</item>
+        <item name="cardElevation">0dp</item>
+        <item name="strokeWidth">0dp</item>
+        <item name="cardCornerRadius">20dp</item>
+    </style>
+
+    <style name="spinnerItemStyle" parent="android:Widget.TextView.SpinnerItem"/>
+    <style name="spinnerDropDownItemStyle" parent="android:TextAppearance.Widget.TextView.SpinnerItem"/>
+
+    <style name="bottomSheetDialog" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="BottomSheetTheme" parent="Theme.MaterialComponents.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/bottomSheetDialog</item>
+    </style>
+
+    <style name="Custom_GFX_RadioButton">
+        <item name="thumbTint">@color/white</item>
+        <item name="thumbStrokeColor">@color/white</item>
+    </style>
+
+    <style name="Custom_Download_Progressbar" parent="Widget.AppCompat.ProgressBar">
+        <item name="android:progressTint">@color/primary</item>
+    </style>
+
+    <style name="fab_shape">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">15dp</item>
+    </style>
+
+    <style name="CustomBottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/CustomBottomSheetStyle</item>
+    </style>
+
+    <style name="CustomBottomSheetStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:fitsSystemWindows">false</item>
+    </style>
+
+    <style name="PauseDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowAnimationStyle">@style/PauseDialogAnimation</item>
+    </style>
+
+    <style name="PauseDialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_up</item>
+        <item name="android:windowExitAnimation">@anim/slide_down</item>
+    </style>
+</resources>

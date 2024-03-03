@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "404367427074",
+    "project_id": "battle-gfx-tool-5c74c",
+    "storage_bucket": "battle-gfx-tool-5c74c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:404367427074:android:a259c44d82a2b9e8cd091b",
+        "android_client_info": {
+          "package_name": "com.onecode.ffhx.gfx"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "404367427074-4qk4abja8ottcqjigavcbt3110pbkq52.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJzKeSL-6RYp7e3MhDQlLZ-TSMPyajQEM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "404367427074-4qk4abja8ottcqjigavcbt3110pbkq52.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
